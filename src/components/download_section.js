@@ -11,7 +11,7 @@ const DownLoad = (props) => {
     <React.Fragment>
       <Grid container className={ classes.download_section }>
         <Grid sm={12} xs={12} md={12} xl={6} lg={6} className={ classes.download_phone_img }>
-          <img src="assets/img/phone.png"/>
+          <img src="assets/img/download-section.png"/>
         </Grid>
         <Grid sm={12} xs={12} md={12} xl={6} lg={6} className={ classes.download_des }>
           <Typography className={ classes.download_heading } variant="h5">
