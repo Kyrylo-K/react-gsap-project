@@ -23,7 +23,7 @@ export const styles = {
     },
   },
   media_phone: {
-    marginTop: "360px",
+    marginTop: "660px",
     marginBottom: "150px",
     display: "flex",
     justifyContent: "center"
@@ -49,6 +49,9 @@ export const styles = {
     mediaicons: {
       padding: "0px 20px"
     },
+    media_phone: {
+      marginTop: "360px",
+    }
   },
   '@media screen and (max-device-width: 560px)': {
     mediaicons: {

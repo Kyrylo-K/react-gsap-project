@@ -123,6 +123,22 @@ const SocialMedia = (props) => {
     );
 
     ScrollTrigger.matchMedia({
+      "(min-width: 1024px)": function () {
+        const tl = gsap.timeline();
+
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 750,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-24",
+              start: "top center",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+      },
       "(min-width: 375px) and (max-width: 767px)": function() {
         const tl = gsap.timeline();
 

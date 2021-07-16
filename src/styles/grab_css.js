@@ -40,7 +40,7 @@ export const styles = {
   },
   grab_img_blog: {
     position: "absolute",
-    left: "200px",
+    left: "300px",
     bottom: "100px"
   },
   grab_img_phone_src: {
