@@ -81,6 +81,9 @@ export const styles = {
       width: 243,
       height: 330,
       paddingTop: 100
+    },
+    socialmedia: {
+      paddingBottom: 100
     }
   },
 };

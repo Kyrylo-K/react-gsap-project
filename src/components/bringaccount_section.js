@@ -19,25 +19,25 @@ const BringAccount = (props) => {
       "(min-width: 768px)": function() {
         const tl = gsap.timeline();
         tl.to(
-          '.BringAccount-pin_image-66',
+          '.BringAccount-pin_image-67',
           {
             y: 450,
             scale: 1,
             duration: 2,
             scrollTrigger: {
-              trigger: ".BringAccount-bringaccount_phone-67",
+              trigger: ".BringAccount-bringaccount_phone-68",
               start: "top center",
               end: "top top",
               scrub: true,
             }
           }
         );
-        tl.to(".BringAccount-bringaccount_phone_back-68", {
+        tl.to(".BringAccount-bringaccount_phone_back-69", {
           scale: 10,
           duration: 2,
           opacity: 0,
           scrollTrigger: {
-            trigger: ".BringAccount-bringaccount_phone-67",
+            trigger: ".BringAccount-bringaccount_phone-68",
             start: "center center",
             end: "top top",
             scrub: true,
@@ -47,25 +47,25 @@ const BringAccount = (props) => {
       "(min-width: 375px) and (max-width: 768px)": function() {
         const tl = gsap.timeline();
         tl.to(
-          '.BringAccount-pin_image-66',
+          '.BringAccount-pin_image-67',
           {
             y: 250,
             scale: 1,
             duration: 2,
             scrollTrigger: {
-              trigger: ".BringAccount-bringaccount_phone-67",
+              trigger: ".BringAccount-bringaccount_phone-68",
               start: "top center",
               end: "top top",
               scrub: true,
             }
           }
         );
-        tl.to(".BringAccount-bringaccount_phone_back-68", {
+        tl.to(".BringAccount-bringaccount_phone_back-69", {
           scale: 10,
           duration: 2,
           opacity: 0,
           scrollTrigger: {
-            trigger: ".BringAccount-bringaccount_phone-67",
+            trigger: ".BringAccount-bringaccount_phone-68",
             start: "center center",
             end: "top top",
             scrub: true,
