@@ -201,5 +201,5 @@ export const styles = {
       left: 400,
       bottom: 100
     },
-  },
+  }
 };

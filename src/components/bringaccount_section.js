@@ -44,7 +44,7 @@ const BringAccount = (props) => {
           }
         });
       },
-      "(min-width: 375px) and (max-width: 768px)": function() {
+      "(min-width: 421px) and (max-width: 768px)": function() {
         const tl = gsap.timeline();
         tl.to(
           '.BringAccount-pin_image-67',
@@ -71,7 +71,35 @@ const BringAccount = (props) => {
             scrub: true,
           }
         });
-      }
+      },
+      "(min-width: 375px) and (max-width: 420px)": function() {
+        const tl = gsap.timeline();
+        tl.to(
+          '.BringAccount-pin_image-67',
+          {
+            y: 350,
+            scale: 1,
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".BringAccount-bringaccount_phone-68",
+              start: "top center",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(".BringAccount-bringaccount_phone_back-69", {
+          scale: 10,
+          duration: 2,
+          opacity: 0,
+          scrollTrigger: {
+            trigger: ".BringAccount-bringaccount_phone-68",
+            start: "center center",
+            end: "top top",
+            scrub: true,
+          }
+        });
+      },
     });
   }, []);
 
@@ -91,7 +119,7 @@ const BringAccount = (props) => {
       </Grid>
 
       <Grid className={ classes.bringaccount_phone }>
-        <img src="/assets/img/green_back.png" />
+        <img src="/assets/img/green_back.png" className={ classes.bringaccount_phone_back_img } />
         <img src="/assets/img/circle.png" className={ classes.bringaccount_phone_back } />
       </Grid>
 

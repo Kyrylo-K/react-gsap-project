@@ -113,10 +113,11 @@ export const styles = {
       fontSize: 24,
       padding: "0px 20px"
     },
-    bringaccount_phone: {
-      "& img": {
-        width: 170
-      }
+    bringaccount_phone_back_img: {
+      width: 170
+    },
+    bringaccount_phone_back: {
+      width: 30
     },
     actions: {
       padding: "64px 20px 20px"
@@ -126,6 +127,18 @@ export const styles = {
     },
     pin_image: {
       width: 100
+    },
+  },
+  '@media screen and (min-device-width: 375px) and (max-device-width: 420px)': {
+    pin_image: {
+      width: 100
+    },
+    bringaccount_phone_back_img: {
+      width: 250
+    },
+    bringaccount_phone_back: {
+      width: 70,
+      height: 70
     },
   }
 };
