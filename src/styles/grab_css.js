@@ -40,7 +40,7 @@ export const styles = {
   },
   grab_img_blog: {
     position: "absolute",
-    left: "300px",
+    left: "200px",
     bottom: "100px"
   },
   grab_img_phone_src: {
@@ -101,14 +101,17 @@ export const styles = {
   social_contact_more: {
     position: "absolute"
   },
-  '@media screen and (max-device-width: 1024px)': {
+  grab_img: {
+    display: "flex",
+    justifyContent: "center"
+  },
+  grab_img_grab: {
+    position: "relative"
+  },
+  '@media screen and (max-device-width: 1536px)': {
     grab_personalize: {
       flexDirection: "column-reverse"
     },
-    grab_img: {
-      display: "flex",
-      justifyContent: "center"
-    }
   },
   '@media screen and (max-device-width: 800px)': {
     grab: {
@@ -120,37 +123,11 @@ export const styles = {
     grab_des: {
       padding: "0px 50px"
     },
-    grab_img_paypal: {
-      position: "absolute",
-      left: 350,
-      bottom: 15,
-      height: 50
-    },
-    grab_img_blog: {
-      position: "absolute",
-      left: 300,
-      bottom: 80,
-      height: 100
-    },
   },
   '@media screen and (max-device-width: 460px)': {
     grab_img_src: {
       width: 343,
       height: 254
-    },
-    grab_img_paypal: {
-      height: 30,
-      width: 180,
-      bottom: 5,
-      opacity: 0,
-      left: 200,
-    },
-    grab_img_blog: {
-      height: 60,
-      width: 180,
-      bottom: -20,
-      left: 100,
-      opacity: 0,
     },
     social_contact_form: {
       width: 300,
@@ -187,19 +164,8 @@ export const styles = {
     },
   },
   '@media screen and (min-device-width: 1249px) and (max-device-width: 1250px)': {
-    grab_img: {
-      justifyContent: "center"
-    },
     grab_personalize: {
       flexDirection: "column-reverse"
-    },
-    grab_img_paypal: {
-      left: 350,
-      bottom: 0,
-    },
-    grab_img_blog: {
-      left: 400,
-      bottom: 100
     },
   }
 };

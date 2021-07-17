@@ -22,6 +22,31 @@ export const styles = {
       left: "100%",
     },
   },
+  line_group_top: {
+    display: "flex",
+    justifyContent: "center",
+    height: 120
+  },
+  line_group_bottom: {
+    display: "flex",
+    justifyContent: "center",
+    height: 450
+  },
+  line_top: {
+    paddingLeft: 70,
+    width: "43%",
+  },
+  line_top_img: {
+    height: 164,
+    width: "100%"
+  },
+  line_bottom: {
+    
+  },
+  line_bottom_img: {
+    height: 1000,
+    width: "100%"
+  },
   media_phone: {
     marginTop: "660px",
     marginBottom: "150px",

@@ -31,6 +31,21 @@ const SocialMedia = (props) => {
       }
     );
 
+    // tl.to(
+    //   '.SocialMedia-line_top_img-26',
+    //   {
+    //     height: 20,
+    //     paddingTop: 144,
+    //     duration: 2,
+    //     scrollTrigger: {
+    //       trigger: ".ConnectMedia-connect-16",
+    //       start: "top top",
+    //       end: "center top",
+    //       scrub: true,
+    //     }
+    //   }
+    // );
+
     tl.to(
       '.SocialMedia-mediaicons-23',
       {
@@ -44,12 +59,25 @@ const SocialMedia = (props) => {
       }
     );
 
+    // tl.to(
+    //   '.SocialMedia-line_top_img-26',
+    //   {
+    //     width: 0,
+    //     scrollTrigger: {
+    //       trigger: ".ConnectMedia-connect-16",
+    //       start: "center top",
+    //       end: "bottom top",
+    //       scrub: true,
+    //     }
+    //   }
+    // );
+
     tl.to(
       '.SocialMedia-mediaicons-23',
       {
         y: 450,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-24",
+          trigger: ".SocialMedia-media_phone-30",
           start: "top center",
           end: "center center",
           scrub: true,
@@ -58,11 +86,11 @@ const SocialMedia = (props) => {
     );
 
     tl.to(
-      '.SocialMedia-media_music-27',
+      '.SocialMedia-media_music-33',
       {
         opacity: 1,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-24",
+          trigger: ".SocialMedia-media_phone-30",
           start: "center center",
           end: "top top",
           scrub: true,
@@ -70,12 +98,12 @@ const SocialMedia = (props) => {
       }
     )
     .to(
-      '.SocialMedia-media_linkedin-28',
+      '.SocialMedia-media_linkedin-34',
       {
         opacity: 1,
         y: 60,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-24",
+          trigger: ".SocialMedia-media_phone-30",
           start: "center center",
           end: "top top",
           scrub: true,
@@ -83,12 +111,12 @@ const SocialMedia = (props) => {
       }
     )
     .to(
-      '.SocialMedia-media_call-29',
+      '.SocialMedia-media_call-35',
       {
         opacity: 1,
         y: 120,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-24",
+          trigger: ".SocialMedia-media_phone-30",
           start: "center center",
           end: "top top",
           scrub: true,
@@ -96,12 +124,12 @@ const SocialMedia = (props) => {
       }
     )
     .to(
-      '.SocialMedia-media_alarm-30',
+      '.SocialMedia-media_alarm-36',
       {
         opacity: 1,
         y: 180,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-24",
+          trigger: ".SocialMedia-media_phone-30",
           start: "center center",
           end: "top top",
           scrub: true,
@@ -109,12 +137,12 @@ const SocialMedia = (props) => {
       }
     )
     .to(
-      '.SocialMedia-media_facebook-31',
+      '.SocialMedia-media_facebook-37',
       {
         opacity: 1,
         y: 240,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-24",
+          trigger: ".SocialMedia-media_phone-30",
           start: "center center",
           end: "top top",
           scrub: true,
@@ -125,13 +153,12 @@ const SocialMedia = (props) => {
     ScrollTrigger.matchMedia({
       "(min-width: 1024px)": function () {
         const tl = gsap.timeline();
-
         tl.to(
           '.SocialMedia-mediaicons-23',
           {
             y: 750,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-24",
+              trigger: ".SocialMedia-media_phone-30",
               start: "top center",
               end: "center center",
               scrub: true,
@@ -143,12 +170,12 @@ const SocialMedia = (props) => {
         const tl = gsap.timeline();
 
         tl.to(
-          '.SocialMedia-media_linkedin-28',
+          '.SocialMedia-media_linkedin-34',
           {
             opacity: 1,
             y: 30,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-24",
+              trigger: ".SocialMedia-media_phone-30",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -156,12 +183,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_call-29',
+          '.SocialMedia-media_call-35',
           {
             opacity: 1,
             y: 60,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-24",
+              trigger: ".SocialMedia-media_phone-30",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -169,12 +196,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_alarm-30',
+          '.SocialMedia-media_alarm-36',
           {
             opacity: 1,
             y: 90,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-24",
+              trigger: ".SocialMedia-media_phone-30",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -182,12 +209,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_facebook-31',
+          '.SocialMedia-media_facebook-37',
           {
             opacity: 1,
             y: 120,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-24",
+              trigger: ".SocialMedia-media_phone-30",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -208,6 +235,16 @@ const SocialMedia = (props) => {
         <img src="/assets/img/frame5.png" className={ classes.mediaicons }/>
         <img src="/assets/img/frame4.png" className={ classes.mediaicons }/>
       </Grid>
+      {/* <Grid className={ classes.line_group_top }>
+        <Grid className={ classes.line_top }>
+          <img src="/assets/img/line_top.png" className={ classes.line_top_img }/>
+        </Grid>
+      </Grid>
+      <Grid className={ classes.line_group_bottom }>
+        <Grid className={ classes.line_bottom }>
+          <img src="/assets/img/line_bottom.png" className={ classes.line_bottom_img } />
+        </Grid>
+      </Grid> */}
       <Grid className={ classes.media_phone }>
         <Grid className={ classes.phone_form }>
           <img src="/assets/img/media_music.png" className={ `${classes.media_icon} ${classes.media_music}` }/>
