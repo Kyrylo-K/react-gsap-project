@@ -185,5 +185,21 @@ export const styles = {
     grab_img_phone_right: {
       height: 254
     },
-  }
+  },
+  '@media screen and (min-device-width: 1249px) and (max-device-width: 1250px)': {
+    grab_img: {
+      justifyContent: "center"
+    },
+    grab_personalize: {
+      flexDirection: "column-reverse"
+    },
+    grab_img_paypal: {
+      left: 350,
+      bottom: 0,
+    },
+    grab_img_blog: {
+      left: 400,
+      bottom: 100
+    },
+  },
 };
