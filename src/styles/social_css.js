@@ -33,19 +33,19 @@ export const styles = {
     height: 450
   },
   line_top: {
-    paddingLeft: 70,
-    width: "43%",
+    // paddingLeft: 70,
+    width: "100%",
   },
   line_top_img: {
     height: 164,
     width: "100%"
   },
   line_bottom: {
-    
   },
   line_bottom_img: {
-    height: 1000,
-    width: "100%"
+    height: 1100,
+    width: "100%",
+    paddingTop: 0
   },
   media_phone: {
     marginTop: "660px",
@@ -70,13 +70,25 @@ export const styles = {
   media_call: {},
   media_alarm: {},
   media_facebook: {},
-  '@media screen and (max-width: 800px)': {
+  '@media screen and (min-width: 640px)': {
+    line_top_img: {
+      paddingLeft: 72,
+      width: 708
+    },
+    line_bottom: {
+      paddingLeft: 72
+    },
+  },
+  '@media screen and (max-width: 640px)': {
     mediaicons: {
       padding: "0px 20px"
     },
     media_phone: {
       marginTop: "360px",
-    }
+    },
+    line_top_img: {
+      width: "80%"
+    },
   },
   '@media screen and (max-width: 560px)': {
     mediaicons: {
@@ -89,7 +101,7 @@ export const styles = {
       backgroundSize: "contain"
     }
   },
-  '@media screen and (max-width: 460px)': {
+  '@media screen and (max-width: 520px)': {
     mediaicons: {
       width: 40,
       height: 40
@@ -112,6 +124,10 @@ export const styles = {
     },
     socialmedia: {
       paddingBottom: 100
-    }
+    },
+    line_top_img: {
+      height: 164,
+      width: "80%"
+    },
   },
 };

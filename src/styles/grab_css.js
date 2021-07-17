@@ -124,7 +124,7 @@ export const styles = {
       padding: "0px 50px"
     },
   },
-  '@media screen and (max-width: 460px)': {
+  '@media screen and (max-width: 520px)': {
     grab_img_src: {
       width: 343,
       height: 254

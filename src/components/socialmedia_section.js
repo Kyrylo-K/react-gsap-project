@@ -31,20 +31,20 @@ const SocialMedia = (props) => {
       }
     );
 
-    // tl.to(
-    //   '.SocialMedia-line_top_img-26',
-    //   {
-    //     height: 20,
-    //     paddingTop: 144,
-    //     duration: 2,
-    //     scrollTrigger: {
-    //       trigger: ".ConnectMedia-connect-16",
-    //       start: "top top",
-    //       end: "center top",
-    //       scrub: true,
-    //     }
-    //   }
-    // );
+    tl.to(
+      '.SocialMedia-line_top_img-27',
+      {
+        height: 20,
+        paddingTop: 144,
+        duration: 2,
+        scrollTrigger: {
+          trigger: ".ConnectMedia-connect-16",
+          start: "top top",
+          end: "center top",
+          scrub: true,
+        }
+      }
+    );
 
     tl.to(
       '.SocialMedia-mediaicons-23',
@@ -59,27 +59,14 @@ const SocialMedia = (props) => {
       }
     );
 
-    // tl.to(
-    //   '.SocialMedia-line_top_img-26',
-    //   {
-    //     width: 0,
-    //     scrollTrigger: {
-    //       trigger: ".ConnectMedia-connect-16",
-    //       start: "center top",
-    //       end: "bottom top",
-    //       scrub: true,
-    //     }
-    //   }
-    // );
-
     tl.to(
-      '.SocialMedia-mediaicons-23',
+      '.SocialMedia-line_top_img-27',
       {
-        y: 450,
+        width: 0,
         scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-30",
-          start: "top center",
-          end: "center center",
+          trigger: ".ConnectMedia-connect-16",
+          start: "center top",
+          end: "bottom top",
           scrub: true,
         }
       }
@@ -168,6 +155,18 @@ const SocialMedia = (props) => {
       },
       "(min-width: 375px) and (max-width: 767px)": function() {
         const tl = gsap.timeline();
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 1100,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "top bottom",
+              end: "top center",
+              scrub: true,
+            }
+          }
+        );
 
         tl.to(
           '.SocialMedia-media_linkedin-34',
@@ -221,7 +220,67 @@ const SocialMedia = (props) => {
             }
           }
         );
-      }
+      },
+      "(max-width: 1240px) and (min-width: 768px)": function() {
+        const tl = gsap.timeline();
+
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 1300,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "top bottom",
+              end: "top center",
+              scrub: true,
+            }
+          }
+        );
+
+        tl.to(
+          '.SocialMedia-line_bottom_img-29',
+          {
+            height: 0,
+            paddingTop: 1100,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "top bottom",
+              end: "top center",
+              scrub: true,
+            }
+          }
+        );
+      },
+      "(min-width: 1240px)": function() {
+        const tl = gsap.timeline();
+
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 1300,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "center bottom",
+              end: "top center",
+              scrub: true,
+            }
+          }
+        );
+
+        tl.to(
+          '.SocialMedia-line_bottom_img-29',
+          {
+            height: 0,
+            paddingTop: 1100,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "center bottom",
+              end: "top center",
+              scrub: true,
+            }
+          }
+        );
+      },
     });
 
   }, []);
@@ -235,7 +294,7 @@ const SocialMedia = (props) => {
         <img src="/assets/img/frame5.png" className={ classes.mediaicons }/>
         <img src="/assets/img/frame4.png" className={ classes.mediaicons }/>
       </Grid>
-      {/* <Grid className={ classes.line_group_top }>
+      <Grid className={ classes.line_group_top }>
         <Grid className={ classes.line_top }>
           <img src="/assets/img/line_top.png" className={ classes.line_top_img }/>
         </Grid>
@@ -244,7 +303,7 @@ const SocialMedia = (props) => {
         <Grid className={ classes.line_bottom }>
           <img src="/assets/img/line_bottom.png" className={ classes.line_bottom_img } />
         </Grid>
-      </Grid> */}
+      </Grid>
       <Grid className={ classes.media_phone }>
         <Grid className={ classes.phone_form }>
           <img src="/assets/img/media_music.png" className={ `${classes.media_icon} ${classes.media_music}` }/>

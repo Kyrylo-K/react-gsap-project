@@ -85,7 +85,7 @@ const Grab = (props) => {
         duration: 0.2,
         scrollTrigger: {
           trigger: ".Grab-social_contact_form-48",
-          start: "top center",
+          start: "center bottom",
           end: "center center",
           scrub: true,
         }

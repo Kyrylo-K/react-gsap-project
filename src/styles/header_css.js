@@ -92,7 +92,6 @@ export const styles = {
   },
   '@media screen and (max-width: 400px)': {
     sign_btn: {
-      // fontSize: 12
       marginLeft: 0
     }
   }
