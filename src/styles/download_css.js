@@ -40,7 +40,7 @@ export const styles = {
     },
     textAlign: "left"
   },
-  '@media screen and (max-device-width: 800px)': {
+  '@media screen and (max-width: 800px)': {
     download_section: {
       padding: "0px 0px",
       display: "flex",
@@ -49,7 +49,7 @@ export const styles = {
       justifyContent: "center"
     }
   },
-  '@media screen and (max-device-width: 560px)': {
+  '@media screen and (max-width: 560px)': {
     download_heading: {
       fontSize: 32
     },
@@ -60,7 +60,7 @@ export const styles = {
       }
     },
   },
-  '@media screen and (max-device-width: 400px)': {
+  '@media screen and (max-width: 400px)': {
     download_heading: {
       fontSize: 24
     },

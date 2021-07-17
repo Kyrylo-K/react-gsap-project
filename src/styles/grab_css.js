@@ -108,12 +108,12 @@ export const styles = {
   grab_img_grab: {
     position: "relative"
   },
-  '@media screen and (max-device-width: 1536px)': {
+  '@media screen and (max-width: 1536px)': {
     grab_personalize: {
       flexDirection: "column-reverse"
     },
   },
-  '@media screen and (max-device-width: 800px)': {
+  '@media screen and (max-width: 800px)': {
     grab: {
       padding: "50px 0px",
     },
@@ -124,7 +124,7 @@ export const styles = {
       padding: "0px 50px"
     },
   },
-  '@media screen and (max-device-width: 460px)': {
+  '@media screen and (max-width: 460px)': {
     grab_img_src: {
       width: 343,
       height: 254
@@ -162,8 +162,18 @@ export const styles = {
     grab_img_phone_right: {
       height: 254
     },
+    grab_img_paypal: {
+      position: "absolute",
+      left: 170,
+      bottom: 0
+    },
+    grab_img_blog: {
+      position: "absolute",
+      left: 40,
+      bottom: -50
+    },
   },
-  '@media screen and (min-device-width: 1249px) and (max-device-width: 1250px)': {
+  '@media screen and (min-width: 1249px) and (max-width: 1250px)': {
     grab_personalize: {
       flexDirection: "column-reverse"
     },

@@ -103,12 +103,12 @@ export const styles = {
     width: 100,
     height: 100,
   },
-  '@media screen and (max-device-width: 770px)': {
+  '@media screen and (max-width: 770px)': {
     actions: {
       padding: "50px 100px 0px"
     },
   },
-  '@media screen and (max-device-width: 400px)': {
+  '@media screen and (max-width: 400px)': {
     bringaccount_heading: {
       fontSize: 24,
       padding: "0px 20px"
@@ -129,7 +129,7 @@ export const styles = {
       width: 100
     },
   },
-  '@media screen and (min-device-width: 375px) and (max-device-width: 420px)': {
+  '@media screen and (min-width: 375px) and (max-width: 420px)': {
     pin_image: {
       width: 100
     },

@@ -70,7 +70,7 @@ export const styles = {
   media_call: {},
   media_alarm: {},
   media_facebook: {},
-  '@media screen and (max-device-width: 800px)': {
+  '@media screen and (max-width: 800px)': {
     mediaicons: {
       padding: "0px 20px"
     },
@@ -78,7 +78,7 @@ export const styles = {
       marginTop: "360px",
     }
   },
-  '@media screen and (max-device-width: 560px)': {
+  '@media screen and (max-width: 560px)': {
     mediaicons: {
       padding: "0px 10px"
     },
@@ -89,7 +89,7 @@ export const styles = {
       backgroundSize: "contain"
     }
   },
-  '@media screen and (max-device-width: 460px)': {
+  '@media screen and (max-width: 460px)': {
     mediaicons: {
       width: 40,
       height: 40

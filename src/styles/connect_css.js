@@ -36,7 +36,7 @@ export const styles = {
     color: "#282828",
     marginLeft: "5px"
   },
-  '@media screen and (max-device-width: 400px)': {
+  '@media screen and (max-width: 400px)': {
     connect: {
       padding: "152px 30px 0px",
       marginBottom: 70

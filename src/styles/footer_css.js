@@ -61,7 +61,7 @@ export const styles = {
   footer_bottom: {
     marginBottom: 30
   },
-  '@media screen and (max-device-width: 865px)': {
+  '@media screen and (max-width: 865px)': {
     footer_medium: {
       paddingLeft: "35%",
     },
@@ -70,7 +70,7 @@ export const styles = {
       margin: "10px 30px"
     }
   },
-  '@media screen and (max-device-width: 745px)': {
+  '@media screen and (max-width: 745px)': {
     footer_top: {
       padding: 50
     },
@@ -78,7 +78,7 @@ export const styles = {
       padding: "0px 50px"
     }
   },
-  '@media screen and (max-device-width: 400px)': {
+  '@media screen and (max-width: 400px)': {
     footer_medium: {
       "& div": {
         "& img": {

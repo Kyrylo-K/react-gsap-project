@@ -72,7 +72,7 @@ export const styles = {
     paddingBottom: 10
   },
 
-  '@media screen and (max-device-width: 800px)': {
+  '@media screen and (max-width: 800px)': {
     pricing: {
       display: "none",
       flexGrow: 0
@@ -90,7 +90,7 @@ export const styles = {
       width: "100%"
     }
   },
-  '@media screen and (max-device-width: 400px)': {
+  '@media screen and (max-width: 400px)': {
     sign_btn: {
       // fontSize: 12
       marginLeft: 0
