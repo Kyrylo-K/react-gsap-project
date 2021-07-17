@@ -54,8 +54,8 @@ const BringAccount = (props) => {
             duration: 2,
             scrollTrigger: {
               trigger: ".BringAccount-bringaccount_phone-68",
-              start: "top center",
-              end: "top top",
+              start: "center bottom",
+              end: "center center",
               scrub: true,
             }
           }
