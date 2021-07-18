@@ -70,7 +70,7 @@ export const styles = {
   media_call: {},
   media_alarm: {},
   media_facebook: {},
-  '@media screen and (min-width: 640px)': {
+  '@media screen and (min-width: 767px)': {
     line_top_img: {
       paddingLeft: 72,
       width: 708
@@ -79,7 +79,7 @@ export const styles = {
       paddingLeft: 72
     },
   },
-  '@media screen and (max-width: 640px)': {
+  '@media screen and (max-width: 768px)': {
     mediaicons: {
       padding: "0px 20px"
     },

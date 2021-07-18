@@ -153,8 +153,21 @@ const SocialMedia = (props) => {
           }
         );
       },
-      "(min-width: 375px) and (max-width: 767px)": function() {
+      "(min-width: 375px) and (max-width: 768px)": function() {
         const tl = gsap.timeline();
+        tl.to(
+          '.SocialMedia-line_bottom_img-29',
+          {
+            height: 0,
+            paddingTop: 900,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "top bottom",
+              end: "top center",
+              scrub: true,
+            }
+          }
+        );
         tl.to(
           '.SocialMedia-mediaicons-23',
           {
