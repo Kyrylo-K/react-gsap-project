@@ -18,6 +18,138 @@ const SocialMedia = (props) => {
     const tl = gsap.timeline();
 
     ScrollTrigger.matchMedia({
+      "(min-width: 1970px) and (max-width: 2880px)": function () {
+        const tl = gsap.timeline();
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 350,
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "top top",
+              end: "center top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-line_top_img-27',
+          {
+            height: 20,
+            paddingTop: 350,
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "top top",
+              end: "center top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            left: "50%",
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "center top",
+              end: "bottom top",
+              scrub: true,
+            }
+          }
+        );
+
+        tl.to(
+          '.SocialMedia-line_top_img-27',
+          {
+            width: 0,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "center top",
+              end: "bottom top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 1200,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-line_bottom_img-29',
+          {
+            height: 0,
+            paddingTop: 650,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-media_linkedin-34',
+          {
+            opacity: 1,
+            y: 60,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        )
+        .to(
+          '.SocialMedia-media_call-35',
+          {
+            opacity: 1,
+            y: 120,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        )
+        .to(
+          '.SocialMedia-media_alarm-36',
+          {
+            opacity: 1,
+            y: 180,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        )
+        .to(
+          '.SocialMedia-media_facebook-37',
+          {
+            opacity: 1,
+            y: 240,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        );
+      },
       "(max-width: 768px)": function () {
         const tl = gsap.timeline();
         tl.to(
@@ -150,7 +282,7 @@ const SocialMedia = (props) => {
           }
         );
       },
-      "(min-width: 768px)": function () {
+      "(min-width: 768px) and (max-width: 1970px)": function () {
         const tl = gsap.timeline();
         tl.to(
           '.SocialMedia-mediaicons-23',

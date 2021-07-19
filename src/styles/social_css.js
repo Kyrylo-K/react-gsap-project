@@ -70,7 +70,23 @@ export const styles = {
   media_call: {},
   media_alarm: {},
   media_facebook: {},
-  '@media screen and (min-width: 768px)': {
+  '@media screen and (min-width: 1970px) and (max-width: 2880px)': {
+    line_top_img: {
+      paddingLeft: 72,
+      width: "80%",
+      height: 350
+    },
+    line_bottom: {
+      paddingLeft: 72
+    },
+    line_group_top: {
+      height: 350
+    },
+    line_group_bottom: {
+      height: 450
+    }
+  },
+  '@media screen and (min-width: 768px) and (max-width: 1969px)': {
     line_top_img: {
       paddingLeft: 72,
       width: "80%",
