@@ -18,14 +18,14 @@ const Grab = (props) => {
     const tl = gsap.timeline();
 
     tl.to(
-      '.Grab-grab_img_paypal-44',
+      '.Grab-grab_img_paypal-43',
       {
         opacity: 1,
         x: -200,
         y: -10,
         duration: 1,
         scrollTrigger: {
-          trigger: ".Grab-grab-39",
+          trigger: ".Grab-grab-38",
           start: "top bottom",
           end: "center center",
           scrub: true,
@@ -33,14 +33,14 @@ const Grab = (props) => {
       }
     );
     tl.to(
-      '.Grab-grab_img_blog-45',
+      '.Grab-grab_img_blog-44',
       {
         opacity: 1,
         y: -200,
         x: 100,
         duration: 1,
         scrollTrigger: {
-          trigger: ".Grab-grab-39",
+          trigger: ".Grab-grab-38",
           start: "top bottom",
           end: "center center",
           scrub: true,
@@ -48,7 +48,7 @@ const Grab = (props) => {
       }
     );
     tl.fromTo(
-      '.Grab-grab_img_phone_background-47',
+      '.Grab-grab_img_phone_background-46',
       {
         x: 0
       },
@@ -56,7 +56,7 @@ const Grab = (props) => {
         x: -230,
         duration: 1,
         scrollTrigger: {
-          trigger: ".Grab-grab_img_phone_src-46",
+          trigger: ".Grab-grab_img_phone_src-45",
           start: "center bottom",
           end: "center top",
           scrub: true,
@@ -64,13 +64,13 @@ const Grab = (props) => {
       }
     );
     tl.to(
-      '.Grab-social_contact_detail-52',
+      '.Grab-social_contact_detail-51',
       {
         left: 100,
         opacity: 1,
         duration: 0.1,
         scrollTrigger: {
-          trigger: ".Grab-social_contact_form-48",
+          trigger: ".Grab-social_contact_form-47",
           start: "center bottom",
           end: "center center",
           scrub: true,
@@ -78,13 +78,13 @@ const Grab = (props) => {
       }
     );
     tl.to(
-      '.Grab-social_contact_more-56',
+      '.Grab-social_contact_more-55',
       {
         left: 225,
         opacity: 1,
         duration: 0.2,
         scrollTrigger: {
-          trigger: ".Grab-social_contact_form-48",
+          trigger: ".Grab-social_contact_form-47",
           start: "center bottom",
           end: "center center",
           scrub: true,
@@ -92,13 +92,13 @@ const Grab = (props) => {
       }
     );
     tl.to(
-      '.Grab-social_contact_twitter-55',
+      '.Grab-social_contact_twitter-54',
       {
         left: 150,
         opacity: 1,
         duration: 0.2,
         scrollTrigger: {
-          trigger: ".Grab-social_contact_form-48",
+          trigger: ".Grab-social_contact_form-47",
           start: "top center",
           end: "center center",
           scrub: true,
@@ -106,13 +106,13 @@ const Grab = (props) => {
       }
     );
     tl.to(
-      '.Grab-social_contact_instagram-54',
+      '.Grab-social_contact_instagram-53',
       {
         left: 75,
         opacity: 1,
         duration: 0.2,
         scrollTrigger: {
-          trigger: ".Grab-social_contact_form-48",
+          trigger: ".Grab-social_contact_form-47",
           start: "top center",
           end: "center center",
           scrub: true,
@@ -124,7 +124,7 @@ const Grab = (props) => {
         const tl = gsap.timeline();
 
         tl.fromTo(
-          '.Grab-grab_img_phone_background-47',
+          '.Grab-grab_img_phone_background-46',
           {
             x: 0
           },
@@ -132,7 +132,7 @@ const Grab = (props) => {
             x: -133,
             duration: 1,
             scrollTrigger: {
-              trigger: ".Grab-grab_img_phone_src-46",
+              trigger: ".Grab-grab_img_phone_src-45",
               start: "center bottom",
               end: "center top",
               scrub: true,
@@ -140,13 +140,13 @@ const Grab = (props) => {
           }
         );
         tl.to(
-          '.Grab-social_contact_detail-52',
+          '.Grab-social_contact_detail-51',
           {
-            left: 70,
+            left: 90,
             opacity: 1,
             duration: 0.5,
             scrollTrigger: {
-              trigger: ".Grab-social_contact_form-48",
+              trigger: ".Grab-social_contact_form-47",
               start: "bottom bottom",
               end: "center center",
               scrub: true,
@@ -154,13 +154,13 @@ const Grab = (props) => {
           }
         );
         tl.to(
-          '.Grab-social_contact_more-56',
+          '.Grab-social_contact_more-55',
           {
-            left: 150,
+            left: 180,
             opacity: 1,
             duration: 0.2,
             scrollTrigger: {
-              trigger: ".Grab-social_contact_form-48",
+              trigger: ".Grab-social_contact_form-47",
               start: "bottom bottom",
               end: "center center",
               scrub: true,
@@ -168,13 +168,13 @@ const Grab = (props) => {
           }
         );
         tl.to(
-          '.Grab-social_contact_twitter-55',
+          '.Grab-social_contact_twitter-54',
           {
-            left: 100,
+            left: 120,
             opacity: 1,
             duration: 0.2,
             scrollTrigger: {
-              trigger: ".Grab-social_contact_form-48",
+              trigger: ".Grab-social_contact_form-47",
               start: "bottom bottom",
               end: "center center",
               scrub: true,
@@ -182,13 +182,13 @@ const Grab = (props) => {
           }
         );
         tl.to(
-          '.Grab-social_contact_instagram-54',
+          '.Grab-social_contact_instagram-53',
           {
-            left: 50,
+            left: 60,
             opacity: 1,
             duration: 0.2,
             scrollTrigger: {
-              trigger: ".Grab-social_contact_form-48",
+              trigger: ".Grab-social_contact_form-47",
               start: "bottom bottom",
               end: "center center",
               scrub: true,

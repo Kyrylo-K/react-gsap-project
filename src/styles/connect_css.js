@@ -1,7 +1,7 @@
 export const styles = {
   connect: {
     backgroundImage: `url(${"/assets/img/connect.jpg"})`,
-    padding: "152px 0px 380px"
+    padding: "152px 0px 100px"
   },
   connect_heading: {
     fontSize: "calc(40px + 2vmin)",
@@ -36,7 +36,7 @@ export const styles = {
     color: "#282828",
     marginLeft: "5px"
   },
-  '@media screen and (max-width: 400px)': {
+  '@media screen and (max-width: 760px)': {
     connect: {
       padding: "152px 30px 0px",
       marginBottom: 70

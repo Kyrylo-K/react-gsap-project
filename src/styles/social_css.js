@@ -48,7 +48,7 @@ export const styles = {
     paddingTop: 0
   },
   media_phone: {
-    marginTop: "660px",
+    marginTop: "60px",
     marginBottom: "150px",
     display: "flex",
     justifyContent: "center"
@@ -70,64 +70,76 @@ export const styles = {
   media_call: {},
   media_alarm: {},
   media_facebook: {},
-  '@media screen and (min-width: 767px)': {
+  '@media screen and (min-width: 768px)': {
     line_top_img: {
       paddingLeft: 72,
-      width: 708
+      width: 708,
+      height: 150
     },
     line_bottom: {
       paddingLeft: 72
     },
+    line_group_top: {
+      height: 150
+    },
+    line_group_bottom: {
+      height: 250
+    }
   },
-  '@media screen and (max-width: 768px)': {
+  '@media screen and (min-width: 500px) and (max-width: 700px)': {
+    line_top_img: {
+      height: 300
+    },
+    line_group_top: {
+      height: 300
+    },
+    line_group_bottom: {
+      height: 500
+    },
+    line_group_bottom: {
+      paddingTop: 0,
+      height: 350
+    }
+  },
+  '@media screen and (max-width: 500px)': {
     mediaicons: {
       padding: "0px 20px"
     },
     media_phone: {
-      marginTop: "360px",
+      marginTop: "60px",
     },
     line_top_img: {
       width: "80%"
     },
-  },
-  '@media screen and (max-width: 560px)': {
-    mediaicons: {
-      padding: "0px 10px"
-    },
-    phone_form: {
-      width: 293,
-      height: 430,
-      backgroundImage: `url(${"/assets/img/frame1927.png"})`,
-      backgroundSize: "contain"
-    }
-  },
-  '@media screen and (max-width: 520px)': {
-    mediaicons: {
-      width: 40,
+    mediagroup: {
       height: 40
     },
+    line_bottom_img: {
+      height: 400,
+      paddingTop: 50
+    },
+    line_group_bottom: {
+      height: 300
+    }
+  },
+  '@media screen and (max-width: 767px)': {
+    mediaicons: {
+      padding: "0px 20px"
+    },
     media_phone: {
-      width: 166,
-      height: 305,
-      margin: "auto",
-      marginTop: 360,
-      overflow: "hidden"
-    },
-    media_icon: {
-      height: 25,
-      width: 110
-    },
-    phone_form: {
-      width: 243,
-      height: 330,
-      paddingTop: 100
-    },
-    socialmedia: {
-      paddingBottom: 100
+      marginTop: "60px",
     },
     line_top_img: {
-      height: 164,
       width: "80%"
     },
+    mediagroup: {
+      height: 40
+    },
+    line_bottom_img: {
+      height: 400,
+    },
+    line_group_bottom: {
+      height: 300
+    }
   },
 };

@@ -103,11 +103,9 @@ export const styles = {
     width: 100,
     height: 100,
   },
-  '@media screen and (max-width: 770px)': {
-    actions: {
-      padding: "50px 100px 0px"
-    },
-  },
+  // '@media screen and (max-width: 770px)': {
+    
+  // },
   '@media screen and (max-width: 400px)': {
     bringaccount_heading: {
       fontSize: 24,
@@ -129,16 +127,19 @@ export const styles = {
       width: 100
     },
   },
-  '@media screen and (min-width: 375px) and (max-width: 420px)': {
+  '@media screen and (min-width: 375px) and (max-width: 770px)': {
     pin_image: {
-      width: 100
+      width: 70
     },
     bringaccount_phone_back_img: {
-      width: 250
+      width: 200
     },
     bringaccount_phone_back: {
       width: 70,
       height: 70
+    },
+    actions: {
+      padding: "50px 50px 0px"
     },
   }
 };

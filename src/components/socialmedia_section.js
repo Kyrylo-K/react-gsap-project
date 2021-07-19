@@ -17,178 +17,94 @@ const SocialMedia = (props) => {
     const element = ref.current;
     const tl = gsap.timeline();
 
-    tl.to(
-      '.SocialMedia-mediaicons-23',
-      {
-        y: 200,
-        duration: 2,
-        scrollTrigger: {
-          trigger: ".ConnectMedia-connect-16",
-          start: "top top",
-          end: "center top",
-          scrub: true,
-        }
-      }
-    );
-
-    tl.to(
-      '.SocialMedia-line_top_img-27',
-      {
-        height: 20,
-        paddingTop: 144,
-        duration: 2,
-        scrollTrigger: {
-          trigger: ".ConnectMedia-connect-16",
-          start: "top top",
-          end: "center top",
-          scrub: true,
-        }
-      }
-    );
-
-    tl.to(
-      '.SocialMedia-mediaicons-23',
-      {
-        left: "50%",
-        scrollTrigger: {
-          trigger: ".ConnectMedia-connect-16",
-          start: "center top",
-          end: "bottom top",
-          scrub: true,
-        }
-      }
-    );
-
-    tl.to(
-      '.SocialMedia-line_top_img-27',
-      {
-        width: 0,
-        scrollTrigger: {
-          trigger: ".ConnectMedia-connect-16",
-          start: "center top",
-          end: "bottom top",
-          scrub: true,
-        }
-      }
-    );
-
-    tl.to(
-      '.SocialMedia-media_music-33',
-      {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-30",
-          start: "center center",
-          end: "top top",
-          scrub: true,
-        }
-      }
-    )
-    .to(
-      '.SocialMedia-media_linkedin-34',
-      {
-        opacity: 1,
-        y: 60,
-        scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-30",
-          start: "center center",
-          end: "top top",
-          scrub: true,
-        }
-      }
-    )
-    .to(
-      '.SocialMedia-media_call-35',
-      {
-        opacity: 1,
-        y: 120,
-        scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-30",
-          start: "center center",
-          end: "top top",
-          scrub: true,
-        }
-      }
-    )
-    .to(
-      '.SocialMedia-media_alarm-36',
-      {
-        opacity: 1,
-        y: 180,
-        scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-30",
-          start: "center center",
-          end: "top top",
-          scrub: true,
-        }
-      }
-    )
-    .to(
-      '.SocialMedia-media_facebook-37',
-      {
-        opacity: 1,
-        y: 240,
-        scrollTrigger: {
-          trigger: ".SocialMedia-media_phone-30",
-          start: "center center",
-          end: "top top",
-          scrub: true,
-        }
-      }
-    );
-
     ScrollTrigger.matchMedia({
-      "(min-width: 1024px)": function () {
+      "(max-width: 768px)": function () {
         const tl = gsap.timeline();
         tl.to(
           '.SocialMedia-mediaicons-23',
           {
-            y: 750,
+            y: 180,
+            duration: 2,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
-              start: "top center",
-              end: "center center",
+              trigger: ".ConnectMedia-connect-16",
+              start: "top top",
+              end: "center top",
               scrub: true,
             }
           }
         );
-      },
-      "(min-width: 375px) and (max-width: 768px)": function() {
-        const tl = gsap.timeline();
+        tl.to(
+          '.SocialMedia-line_top_img-27',
+          {
+            height: 20,
+            paddingTop: 144,
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "top top",
+              end: "center top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            left: "50%",
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "center top",
+              end: "bottom top",
+              scrub: true,
+            }
+          }
+        );
+
+        tl.to(
+          '.SocialMedia-line_top_img-27',
+          {
+            width: 0,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "center top",
+              end: "bottom top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 700,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "center bottom",
+              end: "bottom bottom",
+              scrub: true,
+            }
+          }
+        );
         tl.to(
           '.SocialMedia-line_bottom_img-29',
           {
             height: 0,
-            paddingTop: 900,
+            paddingTop: 500,
             scrollTrigger: {
               trigger: ".SocialMedia-media_phone-30",
-              start: "top bottom",
-              end: "top center",
+              start: "center bottom",
+              end: "bottom bottom",
               scrub: true,
             }
           }
         );
-        tl.to(
-          '.SocialMedia-mediaicons-23',
-          {
-            y: 1100,
-            scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
-              start: "top bottom",
-              end: "top center",
-              scrub: true,
-            }
-          }
-        );
-
         tl.to(
           '.SocialMedia-media_linkedin-34',
           {
             opacity: 1,
-            y: 30,
+            y: 60,
             scrollTrigger: {
               trigger: ".SocialMedia-media_phone-30",
-              start: "center center",
+              start: "bottom bottom",
               end: "top top",
               scrub: true,
             }
@@ -196,6 +112,125 @@ const SocialMedia = (props) => {
         )
         .to(
           '.SocialMedia-media_call-35',
+          {
+            opacity: 1,
+            y: 120,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        )
+        .to(
+          '.SocialMedia-media_alarm-36',
+          {
+            opacity: 1,
+            y: 180,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        )
+        .to(
+          '.SocialMedia-media_facebook-37',
+          {
+            opacity: 1,
+            y: 240,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        );
+      },
+      "(min-width: 768px)": function () {
+        const tl = gsap.timeline();
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 200,
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "top top",
+              end: "center top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-line_top_img-27',
+          {
+            height: 20,
+            paddingTop: 144,
+            duration: 2,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "top top",
+              end: "center top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            left: "50%",
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "center top",
+              end: "bottom top",
+              scrub: true,
+            }
+          }
+        );
+
+        tl.to(
+          '.SocialMedia-line_top_img-27',
+          {
+            width: 0,
+            scrollTrigger: {
+              trigger: ".ConnectMedia-connect-16",
+              start: "center top",
+              end: "bottom top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-mediaicons-23',
+          {
+            y: 600,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-line_bottom_img-29',
+          {
+            height: 0,
+            paddingTop: 375,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "bottom bottom",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.SocialMedia-media_linkedin-34',
           {
             opacity: 1,
             y: 60,
@@ -208,10 +243,23 @@ const SocialMedia = (props) => {
           }
         )
         .to(
+          '.SocialMedia-media_call-35',
+          {
+            opacity: 1,
+            y: 120,
+            scrollTrigger: {
+              trigger: ".SocialMedia-media_phone-30",
+              start: "center center",
+              end: "top top",
+              scrub: true,
+            }
+          }
+        )
+        .to(
           '.SocialMedia-media_alarm-36',
           {
             opacity: 1,
-            y: 90,
+            y: 180,
             scrollTrigger: {
               trigger: ".SocialMedia-media_phone-30",
               start: "center center",
@@ -224,7 +272,7 @@ const SocialMedia = (props) => {
           '.SocialMedia-media_facebook-37',
           {
             opacity: 1,
-            y: 120,
+            y: 240,
             scrollTrigger: {
               trigger: ".SocialMedia-media_phone-30",
               start: "center center",
@@ -234,67 +282,35 @@ const SocialMedia = (props) => {
           }
         );
       },
-      "(max-width: 1240px) and (min-width: 768px)": function() {
+      "(min-width: 500px) and (max-width: 768px)": function () {
         const tl = gsap.timeline();
-
         tl.to(
           '.SocialMedia-mediaicons-23',
           {
-            y: 1300,
+            y: 700,
             scrollTrigger: {
               trigger: ".SocialMedia-media_phone-30",
-              start: "top bottom",
-              end: "top center",
+              start: "center bottom",
+              end: "bottom bottom",
               scrub: true,
             }
           }
         );
-
         tl.to(
           '.SocialMedia-line_bottom_img-29',
           {
             height: 0,
-            paddingTop: 1100,
+            paddingTop: 350,
             scrollTrigger: {
               trigger: ".SocialMedia-media_phone-30",
-              start: "top bottom",
-              end: "top center",
+              start: "center bottom",
+              end: "bottom bottom",
               scrub: true,
             }
           }
         );
       },
-      "(min-width: 1240px)": function() {
-        const tl = gsap.timeline();
-
-        tl.to(
-          '.SocialMedia-mediaicons-23',
-          {
-            y: 1300,
-            scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
-              start: "center bottom",
-              end: "top center",
-              scrub: true,
-            }
-          }
-        );
-
-        tl.to(
-          '.SocialMedia-line_bottom_img-29',
-          {
-            height: 0,
-            paddingTop: 1100,
-            scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
-              start: "center bottom",
-              end: "top center",
-              scrub: true,
-            }
-          }
-        );
-      },
-    });
+    })
 
   }, []);
 
