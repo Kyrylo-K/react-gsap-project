@@ -169,7 +169,7 @@ export const styles = {
     },
     grab_img_blog: {
       position: "absolute",
-      left: 40,
+      left: 20,
       bottom: -50
     },
   },
