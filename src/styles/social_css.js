@@ -38,7 +38,7 @@ export const styles = {
   },
   line_top_img: {
     height: 164,
-    width: "100%"
+    maxWidth: 708
   },
   line_bottom: {
   },
@@ -73,7 +73,7 @@ export const styles = {
   '@media screen and (min-width: 768px)': {
     line_top_img: {
       paddingLeft: 72,
-      width: 708,
+      width: "80%",
       height: 150
     },
     line_bottom: {
@@ -88,7 +88,7 @@ export const styles = {
   },
   '@media screen and (min-width: 500px) and (max-width: 700px)': {
     line_top_img: {
-      height: 300
+      height: 300,
     },
     line_group_top: {
       height: 300
