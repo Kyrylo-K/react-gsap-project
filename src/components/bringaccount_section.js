@@ -19,25 +19,25 @@ const BringAccount = (props) => {
       "(min-width: 768px)": function() {
         const tl = gsap.timeline();
         tl.to(
-          '.BringAccount-pin_image-73',
+          '.jss75',
           {
             y: 450,
             scale: 1,
             duration: 2,
             scrollTrigger: {
-              trigger: ".BringAccount-bringaccount_phone-74",
+              trigger: ".jss76",
               start: "top center",
               end: "top top",
               scrub: true,
             }
           }
         );
-        tl.to(".BringAccount-bringaccount_phone_back-75", {
+        tl.to(".jss77", {
           scale: 10,
           duration: 2,
           opacity: 0,
           scrollTrigger: {
-            trigger: ".BringAccount-bringaccount_phone-74",
+            trigger: ".jss76",
             start: "center center",
             end: "top top",
             scrub: true,
@@ -47,25 +47,25 @@ const BringAccount = (props) => {
       "(min-width: 421px) and (max-width: 768px)": function() {
         const tl = gsap.timeline();
         tl.to(
-          '.BringAccount-pin_image-73',
+          '.jss75',
           {
             y: 250,
             scale: 1,
             duration: 2,
             scrollTrigger: {
-              trigger: ".BringAccount-bringaccount_phone-74",
+              trigger: ".jss76",
               start: "center bottom",
               end: "center center",
               scrub: true,
             }
           }
         );
-        tl.to(".BringAccount-bringaccount_phone_back-75", {
+        tl.to(".jss77", {
           scale: 10,
           duration: 2,
           opacity: 0,
           scrollTrigger: {
-            trigger: ".BringAccount-bringaccount_phone-74",
+            trigger: ".jss76",
             start: "center center",
             end: "top top",
             scrub: true,
@@ -75,25 +75,25 @@ const BringAccount = (props) => {
       "(min-width: 375px) and (max-width: 420px)": function() {
         const tl = gsap.timeline();
         tl.to(
-          '.BringAccount-pin_image-73',
+          '.jss75',
           {
-            y: 350,
+            y: 250,
             scale: 1,
             duration: 2,
             scrollTrigger: {
-              trigger: ".BringAccount-bringaccount_phone-74",
+              trigger: ".jss76",
               start: "top center",
               end: "top top",
               scrub: true,
             }
           }
         );
-        tl.to(".BringAccount-bringaccount_phone_back-75", {
+        tl.to(".jss77", {
           scale: 10,
           duration: 2,
           opacity: 0,
           scrollTrigger: {
-            trigger: ".BringAccount-bringaccount_phone-74",
+            trigger: ".jss76",
             start: "center center",
             end: "top top",
             scrub: true,

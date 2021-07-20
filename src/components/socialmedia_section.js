@@ -21,12 +21,12 @@ const SocialMedia = (props) => {
       "(min-width: 1970px) and (max-width: 2880px)": function () {
         const tl = gsap.timeline();
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
-            y: 350,
+            y: 400,
             duration: 2,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "top top",
               end: "center top",
               scrub: true,
@@ -34,13 +34,13 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-line_top_img-27',
+          '.jss28',
           {
-            height: 20,
+            height: 0,
             paddingTop: 350,
             duration: 2,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "top top",
               end: "center top",
               scrub: true,
@@ -48,11 +48,11 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             left: "50%",
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "center top",
               end: "bottom top",
               scrub: true,
@@ -61,11 +61,11 @@ const SocialMedia = (props) => {
         );
 
         tl.to(
-          '.SocialMedia-line_top_img-27',
+          '.jss29',
           {
             width: 0,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "center top",
               end: "bottom top",
               scrub: true,
@@ -73,11 +73,11 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             y: 1200,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "bottom bottom",
               end: "center center",
               scrub: true,
@@ -85,12 +85,12 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-line_bottom_img-29',
+          '.jss31',
           {
             height: 0,
-            paddingTop: 650,
+            paddingTop: 700,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "bottom bottom",
               end: "center center",
               scrub: true,
@@ -98,12 +98,12 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-media_linkedin-34',
+          '.jss36',
           {
             opacity: 1,
             y: 60,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss33",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -111,12 +111,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_call-35',
+          '.jss37',
           {
             opacity: 1,
             y: 120,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss33",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -124,12 +124,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_alarm-36',
+          '.jss38',
           {
             opacity: 1,
             y: 180,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss33",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -137,12 +137,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_facebook-37',
+          '.jss39',
           {
             opacity: 1,
             y: 240,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss33",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -153,12 +153,12 @@ const SocialMedia = (props) => {
       "(max-width: 768px)": function () {
         const tl = gsap.timeline();
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
-            y: 180,
+            y: 164,
             duration: 2,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "top top",
               end: "center top",
               scrub: true,
@@ -166,13 +166,13 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-line_top_img-27',
+          '.jss28',
           {
-            height: 20,
-            paddingTop: 144,
+            height: 0,
+            paddingTop: 164,
             duration: 2,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "top top",
               end: "center top",
               scrub: true,
@@ -180,11 +180,11 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             left: "50%",
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "center top",
               end: "bottom top",
               scrub: true,
@@ -193,11 +193,11 @@ const SocialMedia = (props) => {
         );
 
         tl.to(
-          '.SocialMedia-line_top_img-27',
+          '.jss29',
           {
             width: 0,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "center top",
               end: "bottom top",
               scrub: true,
@@ -205,11 +205,11 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             y: 700,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center bottom",
               end: "bottom bottom",
               scrub: true,
@@ -217,12 +217,12 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-line_bottom_img-29',
+          '.jss31',
           {
             height: 0,
             paddingTop: 500,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center bottom",
               end: "bottom bottom",
               scrub: true,
@@ -230,12 +230,12 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-media_linkedin-34',
+          '.jss36',
           {
             opacity: 1,
             y: 60,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -243,12 +243,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_call-35',
+          '.jss37',
           {
             opacity: 1,
             y: 120,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -256,12 +256,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_alarm-36',
+          '.jss38',
           {
             opacity: 1,
             y: 180,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -269,12 +269,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_facebook-37',
+          '.jss39',
           {
             opacity: 1,
             y: 240,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "bottom bottom",
               end: "top top",
               scrub: true,
@@ -285,12 +285,12 @@ const SocialMedia = (props) => {
       "(min-width: 768px) and (max-width: 1970px)": function () {
         const tl = gsap.timeline();
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             y: 200,
             duration: 2,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "top top",
               end: "center top",
               scrub: true,
@@ -298,13 +298,13 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-line_top_img-27',
+          '.jss28',
           {
-            height: 20,
+            height: 0,
             paddingTop: 144,
             duration: 2,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "top top",
               end: "center top",
               scrub: true,
@@ -312,11 +312,11 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             left: "50%",
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "center top",
               end: "bottom top",
               scrub: true,
@@ -325,11 +325,11 @@ const SocialMedia = (props) => {
         );
 
         tl.to(
-          '.SocialMedia-line_top_img-27',
+          '.jss29',
           {
             width: 0,
             scrollTrigger: {
-              trigger: ".ConnectMedia-connect-16",
+              trigger: ".jss16",
               start: "center top",
               end: "bottom top",
               scrub: true,
@@ -337,37 +337,37 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             y: 600,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
-              start: "bottom bottom",
+              trigger: ".jss32",
+              start: "top center",
               end: "center center",
               scrub: true,
             }
           }
         );
         tl.to(
-          '.SocialMedia-line_bottom_img-29',
+          '.jss31',
           {
             height: 0,
             paddingTop: 375,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
-              start: "bottom bottom",
+              trigger: ".jss32",
+              start: "top center",
               end: "center center",
               scrub: true,
             }
           }
         );
         tl.to(
-          '.SocialMedia-media_linkedin-34',
+          '.jss36',
           {
             opacity: 1,
             y: 60,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -375,12 +375,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_call-35',
+          '.jss37',
           {
             opacity: 1,
             y: 120,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -388,12 +388,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_alarm-36',
+          '.jss38',
           {
             opacity: 1,
             y: 180,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -401,12 +401,12 @@ const SocialMedia = (props) => {
           }
         )
         .to(
-          '.SocialMedia-media_facebook-37',
+          '.jss39',
           {
             opacity: 1,
             y: 240,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center center",
               end: "top top",
               scrub: true,
@@ -417,11 +417,11 @@ const SocialMedia = (props) => {
       "(min-width: 500px) and (max-width: 768px)": function () {
         const tl = gsap.timeline();
         tl.to(
-          '.SocialMedia-mediaicons-23',
+          '.jss23',
           {
             y: 700,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center bottom",
               end: "bottom bottom",
               scrub: true,
@@ -429,12 +429,12 @@ const SocialMedia = (props) => {
           }
         );
         tl.to(
-          '.SocialMedia-line_bottom_img-29',
+          '.jss31',
           {
             height: 0,
             paddingTop: 350,
             scrollTrigger: {
-              trigger: ".SocialMedia-media_phone-30",
+              trigger: ".jss32",
               start: "center bottom",
               end: "bottom bottom",
               scrub: true,
@@ -458,6 +458,11 @@ const SocialMedia = (props) => {
       <Grid className={ classes.line_group_top }>
         <Grid className={ classes.line_top }>
           <img src="/assets/img/line_top.png" className={ classes.line_top_img }/>
+        </Grid>
+      </Grid>
+      <Grid className={ classes.line_group_mid }>
+        <Grid className={ classes.line_mid }>
+          <img src="/assets/img/line_mid.png" className={ classes.line_mid_img }/>
         </Grid>
       </Grid>
       <Grid className={ classes.line_group_bottom }>

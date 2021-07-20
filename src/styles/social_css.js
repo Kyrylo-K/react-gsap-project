@@ -4,7 +4,7 @@ export const styles = {
     maxWidth: "708px",
     margin: "auto",
     width: "80%",
-    height: "72px"
+    height: "72px",
   },
   mediaicons: {
     position: "absolute",
@@ -33,11 +33,16 @@ export const styles = {
     height: 450
   },
   line_top: {
-    // paddingLeft: 70,
+    width: "100%",
+  },
+  line_mid: {
     width: "100%",
   },
   line_top_img: {
     height: 164,
+    maxWidth: 708
+  },
+  line_mid_img: {
     maxWidth: 708
   },
   line_bottom: {
@@ -72,12 +77,19 @@ export const styles = {
   media_facebook: {},
   '@media screen and (min-width: 1970px) and (max-width: 2880px)': {
     line_top_img: {
-      paddingLeft: 72,
+      // paddingLeft: 72,
       width: "80%",
       height: 350
     },
     line_bottom: {
-      paddingLeft: 72
+      // paddingLeft: 72,
+    },
+    media_phone: {
+      // paddingLeft: 72
+    },
+    line_mid_img: {
+      // paddingLeft: 72,
+      width: "80%"
     },
     line_group_top: {
       height: 350
@@ -93,14 +105,23 @@ export const styles = {
       height: 150
     },
     line_bottom: {
+      paddingLeft: 72,
+    },
+    line_mid: {
+      paddingLeft: 36,
+    },
+    media_phone: {
       paddingLeft: 72
+    },
+    line_mid_img: {
+      width: "80%",
     },
     line_group_top: {
       height: 150
     },
     line_group_bottom: {
       height: 250
-    }
+    },
   },
   '@media screen and (min-width: 500px) and (max-width: 700px)': {
     line_top_img: {
@@ -127,12 +148,15 @@ export const styles = {
     line_top_img: {
       width: "80%"
     },
+    line_mid_img: {
+      width: "80%",
+      paddingTop: 40,
+    },
     mediagroup: {
       height: 40
     },
     line_bottom_img: {
       height: 400,
-      paddingTop: 50
     },
     line_group_bottom: {
       height: 300
@@ -146,6 +170,9 @@ export const styles = {
       marginTop: "60px",
     },
     line_top_img: {
+      width: "80%"
+    },
+    line_mid_img: {
       width: "80%"
     },
     mediagroup: {
