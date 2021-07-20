@@ -49,8 +49,9 @@ export const styles = {
   },
   line_bottom_img: {
     height: 1100,
-    width: "100%",
-    paddingTop: 0
+    width: 6,
+    paddingTop: 0,
+    paddingLeft: 4,
   },
   media_phone: {
     marginTop: "60px",
@@ -81,8 +82,8 @@ export const styles = {
       width: "80%",
       height: 350
     },
-    line_bottom: {
-      // paddingLeft: 72,
+    line_bottom_img: {
+      paddingLeft: 4,
     },
     media_phone: {
       // paddingLeft: 72
@@ -106,6 +107,9 @@ export const styles = {
     },
     line_bottom: {
       paddingLeft: 72,
+    },
+    line_bottom_img: {
+      paddingLeft: 4,
     },
     line_mid: {
       paddingLeft: 36,
@@ -157,6 +161,7 @@ export const styles = {
     },
     line_bottom_img: {
       height: 400,
+      width: 4
     },
     line_group_bottom: {
       height: 300
@@ -180,6 +185,7 @@ export const styles = {
     },
     line_bottom_img: {
       height: 400,
+      width: 4
     },
     line_group_bottom: {
       height: 300
