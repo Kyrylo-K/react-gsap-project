@@ -142,31 +142,35 @@ export const styles = {
       height: 350
     }
   },
-  '@media screen and (max-width: 500px)': {
-    mediaicons: {
-      padding: "0px 20px"
-    },
-    media_phone: {
-      marginTop: "60px",
-    },
-    line_top_img: {
-      width: "80%"
-    },
-    line_mid_img: {
-      width: "80%",
-      paddingTop: 40,
-    },
-    mediagroup: {
-      height: 40
-    },
-    line_bottom_img: {
-      height: 400,
-      width: 4
-    },
-    line_group_bottom: {
-      height: 300
-    }
-  },
+  // '@media screen and (max-width: 500px)': {
+  //   mediaicons: {
+  //     padding: "0px 20px"
+  //   },
+  //   media_phone: {
+  //     marginTop: "60px",
+  //   },
+  //   line_top_img: {
+  //     width: "80%",
+  //     height: 64
+  //   },
+  //   line_mid_img: {
+  //     width: "80%",
+  //     // paddingTop: 40,
+  //   },
+  //   line_group_top: {
+  //     height: 64
+  //   },
+  //   mediagroup: {
+  //     height: 40
+  //   },
+  //   line_bottom_img: {
+  //     height: 250,
+  //     width: 4
+  //   },
+  //   line_group_bottom: {
+  //     height: 250
+  //   }
+  // },
   '@media screen and (max-width: 767px)': {
     mediaicons: {
       padding: "0px 20px"
@@ -174,8 +178,12 @@ export const styles = {
     media_phone: {
       marginTop: "60px",
     },
+    line_group_top: {
+      height: 164
+    },
     line_top_img: {
-      width: "80%"
+      width: "80%",
+      height: 164
     },
     line_mid_img: {
       width: "80%"
@@ -184,11 +192,11 @@ export const styles = {
       height: 40
     },
     line_bottom_img: {
-      height: 400,
+      height: 200,
       width: 4
     },
     line_group_bottom: {
-      height: 300
-    }
+      height: 150
+    },
   },
 };

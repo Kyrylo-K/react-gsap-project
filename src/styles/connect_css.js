@@ -38,8 +38,8 @@ export const styles = {
   },
   '@media screen and (max-width: 760px)': {
     connect: {
-      padding: "152px 30px 0px",
-      marginBottom: 70
+      padding: "50px 30px 0px",
+      marginBottom: 50
     },
     connect_heading: {
       fontSize: "calc(20px + 2vmin)"

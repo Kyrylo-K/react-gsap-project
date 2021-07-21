@@ -23,7 +23,7 @@ const SocialMedia = (props) => {
         tl.to(
           '.jss23',
           {
-            y: 400,
+            paddingTop: 400,
             duration: 2,
             scrollTrigger: {
               trigger: ".jss16",
@@ -75,7 +75,7 @@ const SocialMedia = (props) => {
         tl.to(
           '.jss23',
           {
-            y: 1200,
+            y: 900,
             scrollTrigger: {
               trigger: ".jss32",
               start: "bottom bottom",
@@ -88,7 +88,7 @@ const SocialMedia = (props) => {
           '.jss31',
           {
             height: 0,
-            paddingTop: 700,
+            paddingTop: 900,
             scrollTrigger: {
               trigger: ".jss32",
               start: "bottom bottom",
@@ -155,7 +155,7 @@ const SocialMedia = (props) => {
         tl.to(
           '.jss23',
           {
-            y: 164,
+            paddingTop: 190,
             duration: 2,
             scrollTrigger: {
               trigger: ".jss16",
@@ -207,10 +207,10 @@ const SocialMedia = (props) => {
         tl.to(
           '.jss23',
           {
-            y: 700,
+            y: 250,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center bottom",
+              start: "top center",
               end: "bottom bottom",
               scrub: true,
             }
@@ -220,10 +220,10 @@ const SocialMedia = (props) => {
           '.jss31',
           {
             height: 0,
-            paddingTop: 500,
+            paddingTop: 250,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center bottom",
+              start: "top center",
               end: "bottom bottom",
               scrub: true,
             }
@@ -287,7 +287,7 @@ const SocialMedia = (props) => {
         tl.to(
           '.jss23',
           {
-            y: 200,
+            paddingTop: 200,
             duration: 2,
             scrollTrigger: {
               trigger: ".jss16",
@@ -352,7 +352,7 @@ const SocialMedia = (props) => {
           '.jss31',
           {
             height: 0,
-            paddingTop: 375,
+            paddingTop: 600,
             scrollTrigger: {
               trigger: ".jss32",
               start: "top center",
@@ -422,7 +422,7 @@ const SocialMedia = (props) => {
             y: 700,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center bottom",
+              start: "top center",
               end: "bottom bottom",
               scrub: true,
             }
@@ -432,10 +432,10 @@ const SocialMedia = (props) => {
           '.jss31',
           {
             height: 0,
-            paddingTop: 350,
+            paddingTop: 550,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center bottom",
+              start: "top center",
               end: "bottom bottom",
               scrub: true,
             }
