@@ -104,8 +104,8 @@ const SocialMedia = (props) => {
             y: 60,
             scrollTrigger: {
               trigger: ".jss33",
-              start: "bottom bottom",
-              end: "top top",
+              start: "top center",
+              end: "center center",
               scrub: true,
             }
           }
@@ -117,8 +117,8 @@ const SocialMedia = (props) => {
             y: 120,
             scrollTrigger: {
               trigger: ".jss33",
-              start: "bottom bottom",
-              end: "top top",
+              start: "top center",
+              end: "center center",
               scrub: true,
             }
           }
@@ -130,8 +130,8 @@ const SocialMedia = (props) => {
             y: 180,
             scrollTrigger: {
               trigger: ".jss33",
-              start: "bottom bottom",
-              end: "top top",
+              start: "top center",
+              end: "center center",
               scrub: true,
             }
           }
@@ -143,8 +143,8 @@ const SocialMedia = (props) => {
             y: 240,
             scrollTrigger: {
               trigger: ".jss33",
-              start: "bottom bottom",
-              end: "top top",
+              start: "top center",
+              end: "center center",
               scrub: true,
             }
           }
@@ -368,8 +368,8 @@ const SocialMedia = (props) => {
             y: 60,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center center",
-              end: "top top",
+              start: "bottom bottom",
+              end: "center center",
               scrub: true,
             }
           }
@@ -381,8 +381,8 @@ const SocialMedia = (props) => {
             y: 120,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center center",
-              end: "top top",
+              start: "bottom bottom",
+              end: "center center",
               scrub: true,
             }
           }
@@ -394,8 +394,8 @@ const SocialMedia = (props) => {
             y: 180,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center center",
-              end: "top top",
+              start: "bottom bottom",
+              end: "center center",
               scrub: true,
             }
           }
@@ -407,8 +407,8 @@ const SocialMedia = (props) => {
             y: 240,
             scrollTrigger: {
               trigger: ".jss32",
-              start: "center center",
-              end: "top top",
+              start: "bottom bottom",
+              end: "center center",
               scrub: true,
             }
           }
