@@ -60,7 +60,6 @@ export const styles = {
   social_contact_form: {
     borderRadius: 10,
     backgroundColor: "#0778bd",
-    marginLeft: 50,
     width: 500,
     height: 276,
     position: "relative"
@@ -93,7 +92,6 @@ export const styles = {
   },
   social_contact_instagram: {
     position: "absolute",
-    // opacity: 0
   },
   social_contact_twitter: {
     position: "absolute"
@@ -169,11 +167,11 @@ export const styles = {
     },
     grab_img_blog: {
       position: "absolute",
-      left: 20,
+      left: 10,
       bottom: -50
     },
   },
-  '@media screen and (min-width: 1249px) and (max-width: 1250px)': {
+  '@media screen and (max-width: 1900px)': {
     grab_personalize: {
       flexDirection: "column-reverse"
     },

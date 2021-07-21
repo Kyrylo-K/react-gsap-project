@@ -63,64 +63,170 @@ const Grab = (props) => {
         }
       }
     );
-    tl.to(
-      '.jss53',
-      {
-        left: 100,
-        opacity: 1,
-        duration: 0.1,
-        scrollTrigger: {
-          trigger: ".jss49",
-          start: "center bottom",
-          end: "center center",
-          scrub: true,
-        }
-      }
-    );
-    tl.to(
-      '.jss57',
-      {
-        left: 225,
-        opacity: 1,
-        duration: 0.2,
-        scrollTrigger: {
-          trigger: ".jss49",
-          start: "center bottom",
-          end: "center center",
-          scrub: true,
-        }
-      }
-    );
-    tl.to(
-      '.jss56',
-      {
-        left: 150,
-        opacity: 1,
-        duration: 0.2,
-        scrollTrigger: {
-          trigger: ".jss49",
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        }
-      }
-    );
-    tl.to(
-      '.jss55',
-      {
-        left: 75,
-        opacity: 1,
-        duration: 0.2,
-        scrollTrigger: {
-          trigger: ".jss49",
-          start: "top center",
-          end: "center center",
-          scrub: true,
-        }
-      }
-    );
     ScrollTrigger.matchMedia({
-      "(min-width: 375px) and (max-width: 767px)": function() {
+      "(min-width: 500px)": function() {
+        const tl = gsap.timeline();
+        tl.to(
+          '.jss53',
+          {
+            paddingLeft: 100,
+            opacity: 1,
+            duration: 0.1,
+            scrollTrigger: {
+              trigger: ".jss49",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss57',
+          {
+            paddingLeft: 225,
+            opacity: 1,
+            duration: 0.2,
+            scrollTrigger: {
+              trigger: ".jss49",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss56',
+          {
+            paddingLeft: 150,
+            opacity: 1,
+            duration: 0.2,
+            scrollTrigger: {
+              trigger: ".jss49",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss55',
+          {
+            paddingLeft: 75,
+            opacity: 1,
+            duration: 0.2,
+            scrollTrigger: {
+              trigger: ".jss49",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+      },
+      "(min-width: 350px) and (max-width: 500px)": function() {
+        const tl = gsap.timeline();
+        tl.to(
+          '.jss45',
+          {
+            opacity: 1,
+            x: -200,
+            y: -10,
+            duration: 1,
+            scrollTrigger: {
+              trigger: ".jss58",
+              start: "top bottom",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss46',
+          {
+            opacity: 1,
+            y: -200,
+            x: 100,
+            duration: 1,
+            scrollTrigger: {
+              trigger: ".jss58",
+              start: "top bottom",
+              end: "center center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss48',
+          {
+            x: -230,
+            duration: 1,
+            scrollTrigger: {
+              trigger: ".jss44",
+              start: "center bottom",
+              end: "center top",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss53',
+          {
+            paddingLeft: 80,
+            opacity: 1,
+            duration: 0.3,
+            scrollTrigger: {
+              trigger: ".jss49",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+        
+        tl.to(
+          '.jss57',
+          {
+            paddingLeft: 150,
+            opacity: 1,
+            duration: 0.5,
+            scrollTrigger: {
+              trigger: ".jss50",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss56',
+          {
+            paddingLeft: 100,
+            opacity: 1,
+            duration: 0.5,
+            scrollTrigger: {
+              trigger: ".jss50",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+        tl.to(
+          '.jss55',
+          {
+            paddingLeft: 50,
+            opacity: 1,
+            duration: 0.5,
+            scrollTrigger: {
+              trigger: ".jss49",
+              start: "bottom bottom",
+              end: "bottom center",
+              scrub: true,
+            }
+          }
+        );
+      } ,
+      "(min-width: 500px) and (max-width: 767px)": function() {
         const tl = gsap.timeline();
 
         tl.fromTo(
