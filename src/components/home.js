@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useLayoutEffect, useState } from 'react';
 
 import Header from './header';
 import ConnectMedia from './connectmedia_section';

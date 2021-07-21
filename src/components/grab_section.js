@@ -1,4 +1,4 @@
-import React, { Component, useRef, useEffect } from 'react';
+import React, { Component, useRef, useEffect, useState } from 'react';
 import { Typography, Button, Box, Grid, withStyles} from '@material-ui/core';
 import { BrowserRouter as Switch, Route, Link } from 'react-router-dom';
 
@@ -12,6 +12,15 @@ const Grab = (props) => {
 
   const { classes } = props;
   const ref = useRef(null);
+
+  useEffect(() => {
+    window.addEventListener("resize", updateWidthAndHeight);
+    return () => window.removeEventListener("resize", updateWidthAndHeight);
+  });
+
+  const updateWidthAndHeight = () => {
+    window.location.reload();
+  }
 
   useEffect(() => {
     const element = ref.current;

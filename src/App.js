@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Switch, Route, Link } from 'react-router-dom';
 
 import './App.css';
-import Header from './components/home';
+import Home from './components/home';
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-          <Route path="/" component={Header} />
+          <Route path="/" component={Home} />
         </Switch>
       </div>
     );
